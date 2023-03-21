@@ -1,0 +1,53 @@
+body{
+margin : 0;
+
+}
+
+#gamespace {
+background-color : #3f8c60;
+height:100vh;
+width:100vw;
+
+position: fixed;
+}
+
+#board{
+position: fixed;
+top:80px;
+left:450px;
+z-index: -1;
+}
+
+#human{
+position: fixed;
+top:80px;
+left:450px;
+
+height: 50px;
+  width: 50px;
+  background-color: yellow;
+  border-radius: 50%;
+
+  
+}
+
+#t{
+color: yellow
+position: fixed;
+top:50px;
+left:50px;
+}
+
+
+#wolf{
+position: fixed;
+top:530px;
+left:900px;
+
+height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+
+  
+}

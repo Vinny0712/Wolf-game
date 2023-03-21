@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html onkeydown="move(event,human, steps, player)">
+<head>
+
+<title>wolf</title>
+<link rel= "stylesheet" href= "wolfstyle.css">
+
+</head>
+
+<body  >
+
+
+<div id='gamespace'>
+
+
+<button id='TimeButton' onclick="timeHandler(timing)"> What time is it now?</button>
+
+<div id='t'>
+
+
+<p>
+HOW TO WIN:
+<br>1.REACH YOUR HOME BASE BEFORE THE WOLF<br>
+  CATCHES YOU DURING LUNCHTIME OR<br>
+</p>
+ 
+<p>2.CATCH THE WOLF BEFORE LUNCHTIME</p>
+
+<p>RULES:
+</p>
+<p>
+1.THE NUMBER OF STEPS YOU TAKE MUST BE <br>
+  THE SAME AS THE TIME(E.G 1 PM->1 STEP) 
+</p>
+<p>
+2.YOU CANNOT TAKE 3 CONSECUTIVE STEPS<br>
+ OF THE SAME DIRECTION AT ANY TIME
+</p>
+<p>
+3.YOU MUST RETRACE THE EXACT STEPS YOU<br> 
+  TOOK BACK TO HOME BASE DURING LUNCHTIME<br>
+  OTHERWISE YOU'LL BE LOST IN THE WOODS<BR>
+  AND DIE
+</p>
+
+<p>CLICK THE BUTTON TO START PLAYING</p>
+
+</div>
+
+<canvas id='board' width=500' height='500'>
+</canvas>
+<div id='human'></div>
+<div id='wolf'></div>
+
+</div>
+
+<script src="wolfscript.js"></script>
+</body>
+
+</html>
